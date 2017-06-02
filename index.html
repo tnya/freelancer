@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Freelancer</title>
-	<!-- Enlaza aquí tu CSS común y de tu proyecto 
+	
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -48,7 +48,9 @@
 			<a href="#" class="text-uppercase link">contact</a>	
 		</div>
 	</header>
-	<!—- HOME -—>
+
+	<!-- HOME -->
+
 	<section id="home">
 		<div class="container">
 			<img src="assets/images/profile.png" alt="home" class="img-home">
@@ -57,10 +59,12 @@
 			<p>Web Developer - Graphic Artist - User Experience Designer</p>
 		</div>
 	</section>
-	<!—- PORTFOLIO -—>
+
+	<!-- PORTFOLIO -->
+
 	<section id="portfolio">
 		<div class="text-uppercase text-portfolio">
-			<h2>Portfolio</h2>
+			<h3>Portfolio</h3>
 			<hr class="linea"></hr><i class="fa fa-star fa-2x" aria-hidden="true" class="estrella"></i><hr class="linea"></hr>
 		</div>
 	</section>
@@ -100,15 +104,15 @@
 	<!-- SECTION ABOUT -->
 	<section id="about">
 		<div class="container">
-		<div class="row">
-			<div class="text-uppercase text-about">
-				<h2>About</h2>
-			</div>
+			<h3 class="text-uppercase">About</h3>
+			<hr class="linea"></hr><i class="fa fa-star fa-2x" aria-hidden="true" class="estrella"></i><hr class="linea"></hr>
+			<div class="row">
 
-			<div class="text-about">
-				<div class="row">
-					<div class="col-6">
-						<p> Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optional Less stylesheets for easy customization.<p>
+				<div class="text-about">
+					<div class="row">
+						<div class="col-6">
+							<p> Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS and JavaScript as well as optional Less stylesheets for easy customization.
+							<p>
 						</div>
 						<div class="col-6">
 							<p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point.
@@ -116,50 +120,77 @@
 						</div>
 					</div>
 				</div>
+				<button type="button" class="btn-download"><i class="fa fa-download" aria-hidden="true"></i> Download Theme</button>				
 			</div>
 		</section>
 
-		<section id="contact-me">
-			<div class="container">
+	<!-- CONTACT ME FORM -->
+	<section id="contact-me">
+		<div class="container">
 			<div class="row">
 				<div class="text-uppercase text">
 					<h2>Contact me</h2>
 				</div>
+				<hr class="linea"></hr><i class="fa fa-star fa-2x" aria-hidden="true" class="estrella"></i><hr class="linea"></hr>
 				<div class="col-12 contact-form">
 					<p>
 					<input type="text" name="name" id="name" placeholder="Nombre" required ">
 					</p>
 					<p>
-						<input type="email" name="email" id="email" placeholder="Email" required>
+					<input type="email" name="email" id="email" placeholder="Email" required>
 					</p>
 					<p>
-						<input type="text" name="phone" id="phone" placeholder="Phone Number" required>
+					<input type="text" name="phone" id="phone" placeholder="Phone Number" required>
 					</p>
 					<p>
-						<textarea rows="3" type="text" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+					<textarea rows="3" type="text" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
 					</p>
 				</div>
+				<!-- BOTON CONTACT-ME FORM -->
 				<div class="row">
 					<div class="button">
 						<a href="#" type="submit" class="boton">Send</a>
 					</div>
 				</div>	
-				</div>	
-			</section>
-
-			<section id="info">
-				<div class="container">
+			</div>	
+		</section>
+		<!-- SECCION INFO -->
+		<section id="info">
+			<div class="container">
 				<div class="row">
-				
-				</div>
-				</div>
-			</section>
-			<!-- FOOTER -->
-			<footer>
-				<p>Copyright © Your Website 2017</p>
-			</footer>
+					<div class="col-4">
+						<h3>LOCATION</h3>
+						<p>3481 Melrose Place
+							Beverly Hills, CA 90210
+						</p>
+					</div>
 
-			
-						<!-- Enlaza aquí tu archivo JS -->
+					<div class="col-4"><h2 class="text-uppercase">around the web</h2>
+                        <div class="social">
+                            <i class="fa fa-facebook social-icon" aria-hidden="true"></i>
+                            <i class="fa fa-google-plus social-icon" aria-hidden="true"></i>
+                            <i class="fa fa-twitter social-icon" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin social-icon" aria-hidden="true"></i>
+                            <i class="fa fa-dribbble social-icon" aria-hidden="true"></i>
+                        </div>
+                    </div>
+					<div class="col-4">
+						<h3>ABOUT FREELANCER</h3>
+							<p>Freelance is a free to use, open source 
+								Bootstrap theme created by
+								<p class="parrafo"> Start Bootstrap
+								</p>
+							</p>
+					</div>				
+				</div>
+			</div>
+		</section>
+		<!-- FOOTER -->
+		<footer>
+			<p>Copyright © My Website 2017</p>
+		</footer>
+
+
+<!-- Enlaza aquí tu archivo JS -->
 </body>
 </html>
